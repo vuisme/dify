@@ -77,7 +77,6 @@ const Header = () => {
         <div className='flex'>
           <Link href="/apps" className='flex items-center mr-4'>
             <LogoSite />
-          </Link>
           <div className='font-light text-divider-deep'>/</div>
           {enableBilling ? <PlanBadge allowHover sandboxAsUpgrade plan={plan.type} onClick={handlePlanClick} /> : <LicenseNav />}
         </div >
